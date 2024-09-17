@@ -1,4 +1,4 @@
-import {getActions} from './actions.js';
+import { getActions } from './actions.js';
 
 
 export const handler = async (event) => {

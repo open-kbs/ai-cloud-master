@@ -194,7 +194,15 @@ const onRenderChatMessage = async (params) => {
             typeof o === 'string'
                 ? <p key={`a${i}`} style={{ marginTop: '0px', marginBottom: '0px' }}>{o}</p>
                 : <div key={`a${i}`}>
-                    <CodeViewer key={`ab${i}`} params={{ ...params, i }} limitedWidth={isMobile} execute={true} className="codeContainer" language={o.language} source={o.code} />
+                    <CodeViewer
+                        key={`ab${i}`}
+                        params={{ ...params, i }}
+                        limitedWidth={isMobile}
+                        execute={true}
+                        className="codeContainer"
+                        language={o.language}
+                        source={o.code}
+                    />
                 </div>
         );
     }
