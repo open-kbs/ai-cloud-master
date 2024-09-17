@@ -110,7 +110,7 @@ export function CodeViewer(props) {
         props?.onCopy && props.onCopy();
     };
 
-    const formattedResponse = parseJSON(response)?.response || response;
+    const formattedResponse = parseJSON(response) || { response }
 
     return (
         <div style={{ paddingBottom: 2, position: 'relative', display: 'inline-block', maxWidth: '100%', minWidth: '350px', overflowX: 'auto' }}>
