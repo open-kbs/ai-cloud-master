@@ -3,8 +3,8 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: './src/Frontend/contentRender.js',
-  mode: 'development', // Use development mode for faster builds
-  devtool: 'eval-source-map', // Faster source maps for development
+  mode: 'development',
+  devtool: 'eval-source-map',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'contentRender.bundle.js',

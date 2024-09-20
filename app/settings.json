@@ -1,0 +1,11 @@
+{
+  "kbId": "1yh4v0518bnp",
+  "chatVendor": "openai",
+  "model": "gpt-4o",
+  "inputTools": [
+    "imageToText",
+    "speechToText"
+  ],
+  "kbTitle": "AI Cloud Master",
+  "kbDescription": "An AI-driven cloud assistant executes AWS-related tasks using Node.js"
+}
