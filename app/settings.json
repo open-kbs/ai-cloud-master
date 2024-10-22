@@ -1,0 +1,27 @@
+{
+  "userId": "public",
+  "appId": "81a31cg6fa71",
+  "active": true,
+  "category": "technology",
+  "chatVendor": "openai",
+  "kbDescription": "An AI-driven cloud assistant executes AWS-related tasks using Node.js",
+  "kbTitle": "AI Cloud Master",
+  "model": "gpt-4o",
+  "inputTools": [
+    "imageToText",
+    "speechToText"
+  ],
+  "secrets": [
+    {
+      "description": "AWS Access key ID",
+      "name": "aws_access_key_id"
+    },
+    {
+      "description": "AWS Secret Key",
+      "name": "aws_secret_access_key"
+    }
+  ],
+  "secretsDescription": "- Visit [AWS Sign Up](http://aws.amazon.com/), create a new account (aws offer a 1 year free trial), and log in.\n- Click on your username in the upper-right corner and select \"Security Credentials.\"\n- Click on \"Users\" in the sidebar and select your username.\n- Go to the \"Security Credentials\" tab and click \"Create Access Key.\"\n\nThat's it! You now have your AWS Secret Key and Access Key ID.",
+  "secretsTitle": "How to Get Your \"AWS Secret Key\" and \"Access Key ID\"?",
+  "slug": "ai-cloud-master"
+}
